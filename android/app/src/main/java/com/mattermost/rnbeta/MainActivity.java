@@ -13,7 +13,9 @@ import com.reactnativenavigation.NavigationActivity;
 import com.github.emilioicai.hwkeyboardevent.HWKeyboardEventModule;
 import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint;
 import com.facebook.react.defaults.DefaultReactActivityDelegate;
-
+import com.microsoft.appcenter.AppCenter;
+import com.microsoft.appcenter.analytics.Analytics;
+import com.microsoft.appcenter.crashes.Crashes;
 import java.util.Objects;
 
 public class MainActivity extends NavigationActivity {
@@ -48,6 +50,9 @@ public class MainActivity extends NavigationActivity {
         setContentView(R.layout.launch_screen);
         setHWKeyboardConnected();
         foldableObserver.onCreate();
+
+        AppCenter.start(getApplication(), "27cbeeec-8b26-49a7-b00b-dc0afaaef6f7",
+                  Analytics.class, Crashes.class);
     }
 
     @Override
