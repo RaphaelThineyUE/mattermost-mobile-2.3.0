@@ -112,7 +112,7 @@ commands:
       - run:
           name: Getting JavaScript dependencies
           command: |
-            NODE_ENV=development npm ci --ignore-scripts
+            NODE_ENV=development npm i --ignore-scripts
             node node_modules/\@sentry/cli/scripts/install.js
             node node_modules/react-native-webrtc/tools/downloadWebRTC.js
       - save_cache:
