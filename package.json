@@ -22,7 +22,7 @@
     "@mattermost/react-native-turbo-log": "0.2.3",
     "@mattermost/react-native-turbo-mailer": "0.2.4",
     "@msgpack/msgpack": "2.8.0",
-    "@nozbe/watermelondb": "^0.26.0",
+    "@nozbe/watermelondb": "0.25.5",
     "@nozbe/with-observables": "1.4.1",
     "@react-native-camera-roll/camera-roll": "5.2.3",
     "@react-native-clipboard/clipboard": "1.11.1",
