@@ -245,8 +245,8 @@ jobs:
           command: npm test
       - run:
           name: Running Buld
-          command: npm build:android-unsigned
-          
+          command: npm run build:android-unsigned
+          c
   check-deps:
     parameters:
       cve_data_directory:
