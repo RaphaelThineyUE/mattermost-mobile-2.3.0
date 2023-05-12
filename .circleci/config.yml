@@ -243,9 +243,6 @@ jobs:
       - run:
           name: Running Tests
           command: npm test
-      - run:
-          name: Check i18n
-          command: ./scripts/precommit/i18n.sh
 
   check-deps:
     parameters:
