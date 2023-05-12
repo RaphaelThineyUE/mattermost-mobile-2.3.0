@@ -16,7 +16,7 @@ executors:
     docker:
       - image: cimg/android:2022.09.2-node
     working_directory: ~/mattermost-mobile
-    resource_class: <<parameters.resource_class>>
+    resource_class: "medium"
 
   ios:
     parameters:
