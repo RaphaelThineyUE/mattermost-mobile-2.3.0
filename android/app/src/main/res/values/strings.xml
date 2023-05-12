@@ -23,4 +23,6 @@
     <string name="timeout_description">How long in milliseconds the mobile app should wait for the server to respond.</string>
     <string name="inAppSessionAuth_title">In-App Session Auth</string>
     <string name="inAppSessionAuth_description">Instead of default flow from the mobile browser, enforce SSO with the WebView.</string>
+    <string name="appCenterCrashes_whenToSendCrashes" moduleConfig="true" translatable="false">DO_NOT_ASK_JAVASCRIPT</string>
+<string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
 </resources>
